@@ -1,6 +1,5 @@
 package ej1;
 
-import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -18,9 +17,9 @@ public class Main {
 	            System.out.println(numero);
 	        }
 	    }
-
+	 	
 	    private static int generarNumeroAleatorio() {
-	        Random random = new Random();
-	        return random.nextInt(100);
+	        int random= (int) (Math.random()*100);
+	        return random;
 	    }
 }
